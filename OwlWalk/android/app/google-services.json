@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "266422155646",
+    "firebase_url": "https://ksuowlwalk-default-rtdb.firebaseio.com",
+    "project_id": "ksuowlwalk",
+    "storage_bucket": "ksuowlwalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266422155646:android:067486c05f8699679e5b2f",
+        "android_client_info": {
+          "package_name": "com.owlwalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcicLd8r0-qlvMlQO-P326oS3lKQptLRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
