@@ -20,7 +20,7 @@ export default function LogInScreen({ navigation }){
       <Image source={Logo} 
       style={{ width:300, height: 300}}/>
       <TextInput
-        placeholder="Username"
+        placeholder="KSU NetID"
         value={username}
         onChangeText={setUsername}
         style={styles.input}
@@ -36,7 +36,7 @@ export default function LogInScreen({ navigation }){
 
       <View style={styles.space} /> 
 
-      <Button title="Guest?" onPress={() => navigation.navigate("Campus")} color = '#735240' />
+      <Button title="Guest?" onPress={() => navigation.navigate("Campus Selection")} color = '#735240' />
     </View>
   );
 };

@@ -14,6 +14,22 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-OwlWalk-OwlWalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OwlWalk-OwlWalkTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A53D43971CFE44A4BD86E318 /* Geometria-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A650B544AEE44404A3DC69A5 /* Geometria-Bold.ttf */; };
+		7946C3D845A44972A4461836 /* Geometria-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F34D93DB55AA482AB081A5F1 /* Geometria-BoldItalic.ttf */; };
+		8876ACC7FC9343F8B89E04E4 /* Geometria-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0BA60E888249CFA0EF152A /* Geometria-ExtraBold.ttf */; };
+		11003AB60CD447F4A522DA70 /* Geometria-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAAB2CD8F1514614A281EAE3 /* Geometria-ExtraBoldItalic.ttf */; };
+		30C13028F4F1454A8A03EE51 /* Geometria-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43D4A7022BC443B49C409000 /* Geometria-ExtraLight.ttf */; };
+		79735F53679D4097A019C561 /* Geometria-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B89D72D5C840E28EB66842 /* Geometria-ExtraLightItalic.ttf */; };
+		B1ED3C171FDE4081874677E6 /* Geometria-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCC4B33E844FD9BFB61EC8 /* Geometria-Heavy.ttf */; };
+		7723532F2A7A46988A87F961 /* Geometria-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F58562ADFC4830BA5CA5E5 /* Geometria-HeavyItalic.ttf */; };
+		60A32653AA664E4483CC944F /* Geometria-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FD420802E0B4D35B32DB4B4 /* Geometria-Italic.ttf */; };
+		AD40FEBF64BA4310885E7BEB /* Geometria-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E6CA22AF02E47C1AD038DE5 /* Geometria-Light.ttf */; };
+		61934A7762354A7DAB48A974 /* Geometria-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88E265ED321E4AD199BA6E41 /* Geometria-LightItalic.ttf */; };
+		EC1A71C2B72A45EA81994257 /* Geometria-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4060943FE6504CC8B781AA91 /* Geometria-Medium.ttf */; };
+		45134FCC53E34246852E79E3 /* Geometria-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E9BDEACA1CB45FFAC797333 /* Geometria-MediumItalic.ttf */; };
+		95C8B3B498624274BA488AE7 /* Geometria-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FAACC37E95745D7BE197043 /* Geometria-Thin.ttf */; };
+		6F10DCCB868E4694A7356442 /* Geometria-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AB738658624602A1A259D2 /* Geometria-ThinItalic.ttf */; };
+		C4180A05E9BD42D3B75C9268 /* Geometria.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3545396F1EAB48CB9EB31E5E /* Geometria.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OwlWalk/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-OwlWalk-OwlWalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlWalk-OwlWalkTests.release.xcconfig"; path = "Target Support Files/Pods-OwlWalk-OwlWalkTests/Pods-OwlWalk-OwlWalkTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A650B544AEE44404A3DC69A5 /* Geometria-Bold.ttf */ = {isa = PBXFileReference; name = "Geometria-Bold.ttf"; path = "../assets/fonts/Geometria-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F34D93DB55AA482AB081A5F1 /* Geometria-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-BoldItalic.ttf"; path = "../assets/fonts/Geometria-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA0BA60E888249CFA0EF152A /* Geometria-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Geometria-ExtraBold.ttf"; path = "../assets/fonts/Geometria-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AAAB2CD8F1514614A281EAE3 /* Geometria-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-ExtraBoldItalic.ttf"; path = "../assets/fonts/Geometria-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43D4A7022BC443B49C409000 /* Geometria-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Geometria-ExtraLight.ttf"; path = "../assets/fonts/Geometria-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		68B89D72D5C840E28EB66842 /* Geometria-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-ExtraLightItalic.ttf"; path = "../assets/fonts/Geometria-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBCCC4B33E844FD9BFB61EC8 /* Geometria-Heavy.ttf */ = {isa = PBXFileReference; name = "Geometria-Heavy.ttf"; path = "../assets/fonts/Geometria-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64F58562ADFC4830BA5CA5E5 /* Geometria-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-HeavyItalic.ttf"; path = "../assets/fonts/Geometria-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FD420802E0B4D35B32DB4B4 /* Geometria-Italic.ttf */ = {isa = PBXFileReference; name = "Geometria-Italic.ttf"; path = "../assets/fonts/Geometria-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E6CA22AF02E47C1AD038DE5 /* Geometria-Light.ttf */ = {isa = PBXFileReference; name = "Geometria-Light.ttf"; path = "../assets/fonts/Geometria-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88E265ED321E4AD199BA6E41 /* Geometria-LightItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-LightItalic.ttf"; path = "../assets/fonts/Geometria-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4060943FE6504CC8B781AA91 /* Geometria-Medium.ttf */ = {isa = PBXFileReference; name = "Geometria-Medium.ttf"; path = "../assets/fonts/Geometria-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E9BDEACA1CB45FFAC797333 /* Geometria-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-MediumItalic.ttf"; path = "../assets/fonts/Geometria-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4FAACC37E95745D7BE197043 /* Geometria-Thin.ttf */ = {isa = PBXFileReference; name = "Geometria-Thin.ttf"; path = "../assets/fonts/Geometria-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9AB738658624602A1A259D2 /* Geometria-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Geometria-ThinItalic.ttf"; path = "../assets/fonts/Geometria-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3545396F1EAB48CB9EB31E5E /* Geometria.ttf */ = {isa = PBXFileReference; name = "Geometria.ttf"; path = "../assets/fonts/Geometria.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				873E323AA3074233A31BC214 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +180,30 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		873E323AA3074233A31BC214 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A650B544AEE44404A3DC69A5 /* Geometria-Bold.ttf */,
+				F34D93DB55AA482AB081A5F1 /* Geometria-BoldItalic.ttf */,
+				EA0BA60E888249CFA0EF152A /* Geometria-ExtraBold.ttf */,
+				AAAB2CD8F1514614A281EAE3 /* Geometria-ExtraBoldItalic.ttf */,
+				43D4A7022BC443B49C409000 /* Geometria-ExtraLight.ttf */,
+				68B89D72D5C840E28EB66842 /* Geometria-ExtraLightItalic.ttf */,
+				FBCCC4B33E844FD9BFB61EC8 /* Geometria-Heavy.ttf */,
+				64F58562ADFC4830BA5CA5E5 /* Geometria-HeavyItalic.ttf */,
+				0FD420802E0B4D35B32DB4B4 /* Geometria-Italic.ttf */,
+				9E6CA22AF02E47C1AD038DE5 /* Geometria-Light.ttf */,
+				88E265ED321E4AD199BA6E41 /* Geometria-LightItalic.ttf */,
+				4060943FE6504CC8B781AA91 /* Geometria-Medium.ttf */,
+				3E9BDEACA1CB45FFAC797333 /* Geometria-MediumItalic.ttf */,
+				4FAACC37E95745D7BE197043 /* Geometria-Thin.ttf */,
+				E9AB738658624602A1A259D2 /* Geometria-ThinItalic.ttf */,
+				3545396F1EAB48CB9EB31E5E /* Geometria.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +300,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A53D43971CFE44A4BD86E318 /* Geometria-Bold.ttf in Resources */,
+				7946C3D845A44972A4461836 /* Geometria-BoldItalic.ttf in Resources */,
+				8876ACC7FC9343F8B89E04E4 /* Geometria-ExtraBold.ttf in Resources */,
+				11003AB60CD447F4A522DA70 /* Geometria-ExtraBoldItalic.ttf in Resources */,
+				30C13028F4F1454A8A03EE51 /* Geometria-ExtraLight.ttf in Resources */,
+				79735F53679D4097A019C561 /* Geometria-ExtraLightItalic.ttf in Resources */,
+				B1ED3C171FDE4081874677E6 /* Geometria-Heavy.ttf in Resources */,
+				7723532F2A7A46988A87F961 /* Geometria-HeavyItalic.ttf in Resources */,
+				60A32653AA664E4483CC944F /* Geometria-Italic.ttf in Resources */,
+				AD40FEBF64BA4310885E7BEB /* Geometria-Light.ttf in Resources */,
+				61934A7762354A7DAB48A974 /* Geometria-LightItalic.ttf in Resources */,
+				EC1A71C2B72A45EA81994257 /* Geometria-Medium.ttf in Resources */,
+				45134FCC53E34246852E79E3 /* Geometria-MediumItalic.ttf in Resources */,
+				95C8B3B498624274BA488AE7 /* Geometria-Thin.ttf in Resources */,
+				6F10DCCB868E4694A7356442 /* Geometria-ThinItalic.ttf in Resources */,
+				C4180A05E9BD42D3B75C9268 /* Geometria.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
