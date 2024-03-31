@@ -1,44 +1,31 @@
 /*Test screen for OWL WALK */
 
-import React, {useState} from 'react';
-import {StyleSheet, Text, Button, View} from 'react-native';
+import React from 'react';
 
-const HelloWorldApp = () => {
-const [Appname, setName] = useState('OwlWalk')
 
-const onClickHandler =() =>{
-  
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LogInScreen from './src/screens/LogInScreen'
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { StyleSheet } from 'react-native';
+import ChooseCampus from './src/screens/ChooseCampus';
+
+const Stack = createNativeStackNavigator();
+
+function App(){
+return (
+  <NavigationContainer>
+    <Stack.Navigator initialRouteName='Login'>
+        <Stack.Screen name="Login" component={LogInScreen} />
+        <Stack.Screen name='Campus' component={ChooseCampus} />
+    </Stack.Navigator>
+  </NavigationContainer>
+);
 }
 
-
-  return (
-    
-    <View 
-      style={
-        styles.body
-
-      }>
-      <Text style ={styles.headline} >{Appname}</Text>
-      <Button title= 'Log in' onPress={onClickHandler}></Button>
-    </View>
-  );
-};
-
 const styles = StyleSheet.create({
-  body: {
+  root: {
     flex: 1,
-    backgroundColor: '#FFFAF0',
-    
-    
-  },
-
-  headline: {
-    fontSize: 30,
-    textAlign: 'center',
-    fontStyle: 'italic',
-    fontWeight: 'bold'
   }
-
-
 })
-export default HelloWorldApp;
+export default App;
