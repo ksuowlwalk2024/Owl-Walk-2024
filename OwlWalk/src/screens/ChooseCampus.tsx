@@ -8,7 +8,7 @@ export default function ChooseCampus({ navigation }){
   return (
     <View style={styles.container}>
       <Text style={styles.Header}>Choose Campus</Text>
-
+      <View style={styles.Hspace}/>
         <TouchableOpacity onPress= {() => navigation.navigate("Marietta Campus")}>
             <Image source ={mCampus} style={styles.image}/>
             <Text style={styles.Names}>Marietta</Text>
@@ -44,6 +44,11 @@ const styles = StyleSheet.create({
         fontSize: 30,
         textAlign: 'center',
         fontFamily: 'geometria',
+        fontWeight: 'bold',
+
+    },
+    Hspace:{
+        height:10,
 
     },
 

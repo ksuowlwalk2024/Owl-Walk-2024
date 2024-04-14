@@ -11,6 +11,7 @@ import { StyleSheet } from 'react-native';
 import ChooseCampus from './src/screens/ChooseCampus';
 import MariettaCampus from './src/screens/MariettaCampus';
 import KennesawCampus from './src/screens/KennesawCampus';
+import EnginTB from './src/screens/EnginTB';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +23,7 @@ return (
         <Stack.Screen name='Campus Selection' component={ChooseCampus} />
         <Stack.Screen name='Marietta Campus' component={MariettaCampus} />
         <Stack.Screen name='Kennesaw Campus' component={KennesawCampus} />
+        <Stack.Screen name='Engineering Technology Building' component={EnginTB} />
     </Stack.Navigator>
   </NavigationContainer>
 );
